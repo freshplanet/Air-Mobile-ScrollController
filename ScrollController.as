@@ -1,4 +1,22 @@
-package ui.scroll
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright 2012 Freshplanet (http://freshplanet.com | opensource@freshplanet.com)
+//  
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//  
+//    http://www.apache.org/licenses/LICENSE-2.0
+//  
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//  
+//////////////////////////////////////////////////////////////////////////////////////
+
+package com.freshplanet
 {
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
@@ -11,7 +29,7 @@ package ui.scroll
 	import flash.geom.Rectangle;
 	import flash.utils.Timer;
 	import flash.utils.getTimer;
-
+	
 	public class ScrollController extends EventDispatcher
 	{
 		// --------------------------------------------------------------------------------------//
@@ -68,7 +86,7 @@ package ui.scroll
 		 * content should be masked. The scroll bar will be displayed on the right side of the
 		 * container viewport. If null, we default to the container bounds.
 		 * @param contentRect A rectangle (in content coordinates) outside of which the scrolling
-		 * shouldn't go. If null, the whole centent will be scrollable.
+		 * shouldn't go. If null, the whole content will be scrollable.
 		 */
 		public function addScrollControll( content : DisplayObject,
 										   container : DisplayObjectContainer,
