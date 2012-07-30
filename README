@@ -1,0 +1,15 @@
+# Air Mobile Scroll Controller
+
+Everything you need to have scrolling in your Adobe Air application that feels native on mobile.
+
+
+# How to use
+
+Add ScrollController.as, create a new ScrollController object, and call its addScrollControll() method.
+See the documentation for the details.
+
+
+# Note
+
+Don't hesitate to play around with the scrolling parameters (static constants) and suggest values that feel
+more native to you.
