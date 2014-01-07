@@ -44,7 +44,7 @@ package com.freshplanet.lib.ui.scroll.mobile
 		
 		private var _alphabetSelector:Sprite ;
 		private var _alphabetSelectorBackground:Shape ;
-		private var _alphabetSelectorScrollController:ScrollControllerApp ;
+		private var _alphabetSelectorScrollController:ScrollController ;
 		
 		private var _getListItemBounds:Function ;
 		
